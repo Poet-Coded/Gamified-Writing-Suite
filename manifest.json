@@ -1,0 +1,9 @@
+{
+  "id": "gamified-writing",
+  "name": "Gamified Writing Suite",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Gamifies writing with level progression (1-300), crop/monster farming, daily streaks, writing statistics, and energy/cycle tracking.",
+  "author": "Obsidian Plugin Developer",
+  "isDesktopOnly": false
+}

@@ -17,6 +17,7 @@ This Obsidian plugin replaces shame-based productivity with a **900-Level Legend
   * **Monster Slayer Mode (D&D Style):** Slay Imps, Goblins, Trolls, and Dragons.
 * **AuDHD Affirmation Engine:** Built-in encouraging prompts written specifically to validate neurodivergent writing habits, sensory limits, and non-linear momentum.
 * **Automated Log Vaulting:** Automatically exports detailed Markdown session reports to your designated vault folder so you can keep a low-effort record of your progress over time.
+* **Notes:** There are currently only 3 tiers. Tier 1 is the first 300 levels. Tier 2 are levels 300 - 600. Tier 3 (final) are 600 - 900 levels. 
 
 ---
 

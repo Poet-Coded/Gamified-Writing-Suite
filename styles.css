@@ -1,0 +1,121 @@
+.gamified-sidebar-container {
+  padding: 12px;
+  font-family: var(--font-interface);
+}
+
+.gw-header {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.gw-streak {
+  font-weight: bold;
+  color: var(--text-accent);
+}
+
+.gw-progress-wrapper {
+  margin: 10px 0;
+}
+
+.gw-progress-label {
+  font-size: 0.8em;
+  margin-bottom: 4px;
+}
+
+.gw-progress-bg {
+  width: 100%;
+  height: 12px;
+  background-color: var(--background-modifier-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.gw-progress-fill {
+  height: 100%;
+  background-color: var(--interactive-accent);
+  transition: width 0.3s ease;
+}
+
+.gw-progress-fill-active {
+  height: 100%;
+  background-color: #2e7d32;
+  transition: width 0.3s ease;
+}
+
+.gw-quote-box {
+  background: var(--background-secondary);
+  border-left: 3px solid var(--interactive-accent);
+  padding: 8px 12px;
+  margin: 12px 0;
+  font-size: 0.85em;
+  border-radius: 4px;
+}
+
+.gw-energy-section, .gw-session-section, .gw-record-section, .gw-history-section {
+  margin-top: 16px;
+  padding-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.gw-energy-row {
+  margin: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gw-star-icon, .gw-heart-icon {
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 0 2px;
+}
+
+.gw-star-icon { color: #fbc02d; }
+.gw-heart-icon { color: #e91e63; }
+
+.gw-btn-start, .gw-btn-stop {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.gw-btn-start { background-color: var(--interactive-accent); color: white; }
+.gw-btn-stop { background-color: #d32f2f; color: white; }
+
+.gw-insights-box {
+  background: var(--background-secondary);
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.gw-record-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.gw-record-card {
+  background: var(--background-secondary);
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.gw-card-title { font-weight: bold; }
+.gw-card-count { color: var(--text-accent); font-weight: bold; margin-top: 4px; }
+
+.gw-log-list { margin-top: 8px; }
+.gw-log-item {
+  background: var(--background-secondary);
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+.gw-log-title { font-weight: bold; border-bottom: 1px solid var(--background-modifier-border); margin-bottom: 4px; }
